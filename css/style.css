@@ -888,4 +888,18 @@ font-family: 'Nunito Sans', sans-serif;
     transition: all linear 0.4s;
     cursor: pointer;
 }
+footer{
+    padding: 35px 0px 25px 0px;
+    background-color: #010101;
+    text-align: center;
+}
+footer p{
+    font-size: 14px;
+    color: #737272;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+footer p a{
+    color: #f3b969;
+}
 /* contact end */
