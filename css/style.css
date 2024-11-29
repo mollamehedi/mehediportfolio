@@ -773,3 +773,119 @@ font-family: 'Nunito Sans', sans-serif;
     transition: all linear 0.4s;
 }
 /* blog end */
+
+/* contact start */
+    #contact{
+        background: #f3f6fb;
+    }
+    .contact_bg{
+        background: url(../images/map_img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+    #contact h2 {
+        font-size: 38px;
+        text-transform: uppercase;
+        color: #f3b969;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+.contact_main {
+    display: flex;
+    gap: 30px;
+}
+.information{
+    width: calc(50% - 30px);
+    height: 400px;
+}
+.information .info_item{
+    width: 100%;
+    background: #f3f6fb;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    border-radius: 5px;
+}
+.information .info_item .icon{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information .info_item .icon i{
+    font-size: 26px;
+    color: #f3b969;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+
+}
+.information .info_item .text{
+    width: 80%;
+}
+.information .info_item .text h5{
+    font-size: 21px;
+    color: #212529;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 10px;
+}
+.information .info_item .text p{
+    font-size: 16px;
+    color: #3d3f42;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.form{
+    width: 50%;
+}
+.form input{
+    font-size: 13px;
+    color: #3d3f42;
+    background: white;
+    line-height: 45px;
+    padding: 0px 20px;
+    width: 100%;
+    margin-bottom: 25px;
+    border: 0px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    border-radius: 5px;
+}
+.form textarea{
+    font-size: 13px;
+    color: #3d3f42;
+    background: white;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+    border: 0px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    border-radius: 5px;
+}
+.form button{
+    font-size: 16px;
+    color: #575152;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 0px;
+    background: white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    padding: 0px 50px;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+.form button:hover{
+    padding: 0px 60px;
+    transition: all linear 0.4s;
+    cursor: pointer;
+}
+/* contact end */
